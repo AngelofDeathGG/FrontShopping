@@ -1,0 +1,18 @@
+-- Actualizar imágenes con fotos reales de cada producto (Wikimedia Commons)
+UPDATE [dbo].[Product] SET [ImageUrl] = 'https://upload.wikimedia.org/wikipedia/commons/b/b0/Samsung_Galaxy_S21_Phantom_Violet.jpg' WHERE [Id] = 1;
+UPDATE [dbo].[Product] SET [ImageUrl] = 'https://upload.wikimedia.org/wikipedia/commons/f/f7/IPhone_12_Pro_Max.png' WHERE [Id] = 2;
+UPDATE [dbo].[Product] SET [ImageUrl] = 'https://http2.mlstatic.com/D_NQ_NP_613108-MLA47529473785_092021-O.webp' WHERE [Id] = 3;
+UPDATE [dbo].[Product] SET [ImageUrl] = 'https://upload.wikimedia.org/wikipedia/commons/6/6b/Pressure_cooker_-_Hawkins%2C_Contura_Model_-_3_litres_-_4.jpg' WHERE [Id] = 4;
+UPDATE [dbo].[Product] SET [ImageUrl] = 'https://upload.wikimedia.org/wikipedia/commons/6/6b/Waring_Blender.JPG' WHERE [Id] = 5;
+UPDATE [dbo].[Product] SET [ImageUrl] = 'https://upload.wikimedia.org/wikipedia/commons/6/66/Braun_Coffee_Maker.jpg' WHERE [Id] = 6;
+UPDATE [dbo].[Product] SET [ImageUrl] = 'https://upload.wikimedia.org/wikipedia/commons/8/85/Dell_XPS_13_9300.jpg' WHERE [Id] = 7;
+UPDATE [dbo].[Product] SET [ImageUrl] = 'https://upload.wikimedia.org/wikipedia/commons/0/02/HP_PAVILION_8750.JPG' WHERE [Id] = 8;
+UPDATE [dbo].[Product] SET [ImageUrl] = 'https://upload.wikimedia.org/wikipedia/commons/f/ff/Gigabyte_AORUS_AD27QD_20190601.jpg' WHERE [Id] = 9;
+UPDATE [dbo].[Product] SET [ImageUrl] = 'https://http2.mlstatic.com/D_NQ_NP_927792-MPE93863658163_092025-O.webp' WHERE [Id] = 10;
+UPDATE [dbo].[Product] SET [ImageUrl] = 'https://upload.wikimedia.org/wikipedia/commons/d/da/Family_playing_a_board_game_%283%29.jpg' WHERE [Id] = 11;
+UPDATE [dbo].[Product] SET [ImageUrl] = 'https://upload.wikimedia.org/wikipedia/commons/e/e5/Porcelain_doll_in_period_dress._France%2C_1877.jpg' WHERE [Id] = 12;
+UPDATE [dbo].[Product] SET [ImageUrl] = 'https://upload.wikimedia.org/wikipedia/commons/9/9d/Chanel_No._5_Fragrance_Austin_Calhoon_Photograph.jpg' WHERE [Id] = 13;
+UPDATE [dbo].[Product] SET [ImageUrl] = 'https://upload.wikimedia.org/wikipedia/commons/3/3b/Dior_Sauvage_Verpackung.jpg' WHERE [Id] = 14;
+UPDATE [dbo].[Product] SET [ImageUrl] = 'https://upload.wikimedia.org/wikipedia/commons/d/d9/Light_blue.jpg' WHERE [Id] = 15;
+UPDATE [dbo].[Product] SET [ImageUrl] = 'https://upload.wikimedia.org/wikipedia/commons/4/49/HP_Pavilion_a767c_and_f1503_(8563202110).jpg' WHERE [Id] = 16;
+DELETE FROM [dbo].[Product] WHERE [Id] = 16;
